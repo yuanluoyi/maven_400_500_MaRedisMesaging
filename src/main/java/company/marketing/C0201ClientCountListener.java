@@ -10,6 +10,7 @@ import redis.clients.jedis.JedisPubSub;
  */
 public class C0201ClientCountListener extends JedisPubSub {
     private Jedis jedis;
+    private String name;
     public C0201ClientCountListener(){
         JedisPool pool = new JedisPool(new JedisPoolConfig(), "localhost",6379);
         jedis = pool.getResource();
