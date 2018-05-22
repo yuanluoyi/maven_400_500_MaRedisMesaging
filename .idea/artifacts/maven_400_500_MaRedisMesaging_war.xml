@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="maven_400_500_MaRedisMesaging:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ssm_560_500_MaStrutsHibernate.war">
+      <element id="artifact" artifact-name="maven_400_500_MaRedisMesaging:war exploded" />
+    </root>
+  </artifact>
+</component>
